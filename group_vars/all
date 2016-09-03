@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-d2dd6eb7
+subnet_id: subnet-946be3f1
+ec2_keypair: admin
+instance_count: 2
+db_subnets:
+  - subnet-946be3f1
+  - subnet-e900ccb0
+db_availability_zone: us-west-2a
+db_username: backend
