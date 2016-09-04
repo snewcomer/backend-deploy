@@ -145,8 +145,8 @@ Resources:
       HealthCheck: 
         Target: "HTTP:8000/s"
         HealthyThreshold: "2"
-        UnhealthyThreshold: "5"
-        Interval: "20"
+        UnhealthyThreshold: "10"
+        Interval: "30"
         Timeout: "5"
       Subnets: [ { "Ref": "SubnetId" } ]
       Tags: 
